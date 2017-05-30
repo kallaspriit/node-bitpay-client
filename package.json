@@ -38,13 +38,13 @@
     "api"
   ],
   "dependencies": {
-    "async": "^0.7.0",
-    "bitauth": "^0.3.1",
-    "commander": "^1.3.2",
-    "extend": "^1.2.1",
-    "qs": "^2.2.4",
-    "read": "^1.0.5",
-    "request": "^2.34.0"
+    "async": "^2.4.1",
+    "bitauth": "kallaspriit/bitauth",
+    "commander": "^2.9.0",
+    "extend": "^3.0.1",
+    "qs": "^6.4.0",
+    "read": "^1.0.7",
+    "request": "^2.81.0"
   },
   "analyze": false,
   "license": "MIT",
@@ -52,10 +52,10 @@
     "node": ">=0.8"
   },
   "devDependencies": {
-    "istanbul": "^0.3.5",
-    "mocha": "^1.21.4",
-    "proxyquire": "^1.0.1",
-    "should": "^4.0.4",
-    "sinon": "^1.10.3"
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2",
+    "proxyquire": "^1.8.0",
+    "should": "^11.2.1",
+    "sinon": "^2.3.2"
   }
 }
