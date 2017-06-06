@@ -6,6 +6,12 @@ BitPay Node.js API Client
 A Node.js module and command line client for interacting with
 [BitPay's Cryptographically Secure API](https://bitpay.com/api).
 
+## Using from this repository
+- `npm install`
+- `node bin\bitpay.js config --use test` or `node bin\bitpay.js config --use prod`
+- `node bin\bitpay.js keygen`
+- `node bin\bitpay.js pair`
+
 ## Getting Started
 
 Install using [Node Package Manager](https://www.npmjs.org/).
